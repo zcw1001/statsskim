@@ -1,8 +1,5 @@
 <template>
   <div id="ethnicity"></div>
-  <div class="caption bg-gray-200 text-sm rounded-xl">
-    如果一个人有多个种族认同，则会在所有选择的类别中计入
-  </div>
 </template>
 
 <script setup lang="ts">
@@ -117,8 +114,5 @@ onMounted(() => {
 #ethnicity {
   width: 700px;
   height: 500px;
-}
-.caption {
-  padding: 20px;
 }
 </style>
