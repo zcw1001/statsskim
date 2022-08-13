@@ -65,7 +65,7 @@ onMounted(() => {
         data: [76.8, 67.6, 74.0, 70.2]
       },
       {
-        name: '毛利人',
+        name: '毛利族',
         type: 'line',
         smooth: true,
         label: {

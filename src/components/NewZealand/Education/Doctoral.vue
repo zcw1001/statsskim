@@ -27,7 +27,7 @@ onMounted(() => {
         radius: '50%',
         data: [
           { value: 23118, name: '欧裔' },
-          { value: 1197, name: '毛利人' },
+          { value: 1197, name: '毛利族' },
           { value: 348, name: '太平洋诸岛裔' },
           { value: 4764, name: '亚裔' },
           { value: 1671, name: '其他' }

@@ -22,7 +22,7 @@ onMounted(() => {
     },
     xAxis: {
       type: 'category',
-      data: ['欧裔', '毛利人', '太平洋诸岛裔', '亚裔']
+      data: ['欧裔', '毛利族', '太平洋诸岛裔', '亚裔']
     },
     yAxis: [
       {
