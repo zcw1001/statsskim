@@ -21,6 +21,7 @@ const items = [
   { name: '人口', link_name: 'nz-population' },
   { name: '教育', link_name: 'nz-education' },
   { name: '收入', link_name: 'nz-income' },
+  { name: '经济', link_name: 'nz-economy' },
 ];
 </script>
 

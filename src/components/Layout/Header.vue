@@ -1,7 +1,9 @@
 <template>
   <div class="header text-center font-bold text-gray-600 select-none">
-    <span class="text-3xl">StatsSkim</span>
-    <span class="country-text text-md opacity-95">新西兰</span>
+    <router-link :to="{ name: 'nz-population' }">
+      <span class="text-3xl">StatsSkim</span>
+      <span class="country-text text-md opacity-95">新西兰</span>
+    </router-link>
   </div>
 </template>
 

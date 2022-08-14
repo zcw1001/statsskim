@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import NZPopulation from '@/pages/NewZealand/Population.vue'
 import NZEducation from '@/pages/NewZealand/Education.vue'
 import NZIncome from '@/pages/NewZealand/Income.vue'
+import NZEconomy from '@/pages/NewZealand/Economy.vue'
 
 const routes = [
     {
@@ -38,6 +39,14 @@ const routes = [
         name: 'nz-income',
         path: '/nz/income',
         component: NZIncome,
+        meta: {
+            title: 'StatsSkim'
+        }
+    },
+    {
+        name: 'nz-economy',
+        path: '/nz/economy',
+        component: NZEconomy,
         meta: {
             title: 'StatsSkim'
         }
