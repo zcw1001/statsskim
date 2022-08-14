@@ -48,7 +48,7 @@ onMounted(() => {
 
 <style scoped>
 #bachelor {
-  width: 700px;
+  width: 100%;
   height: 500px;
 }
 </style>

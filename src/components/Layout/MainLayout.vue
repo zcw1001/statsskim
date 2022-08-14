@@ -24,10 +24,18 @@ const props = defineProps<{
 <style scoped>
 .main-content {
   display: flex;
-  padding: 0 300px;
+  width: 960px;
+  margin: 0 auto;
 }
 main {
   flex-basis: 70%;
   padding: 10px 0;
+}
+
+@media screen and (max-width: 960px) {
+  .main-content {
+    width: 100%;
+    padding: 0 20px;
+  }
 }
 </style>
