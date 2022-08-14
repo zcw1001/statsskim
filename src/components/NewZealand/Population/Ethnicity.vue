@@ -1,11 +1,9 @@
 <template>
   <div id="ethnicity"></div>
-  <Caption>如果一个人有多个种族认同，则会在所有选择的类别中计入</Caption>
 </template>
 
 <script setup lang="ts">
 import { onMounted, inject } from 'vue';
-import Caption from '@/components/Common/Caption.vue';
 
 const echarts: any = inject('echarts');
 
