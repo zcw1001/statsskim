@@ -1,6 +1,6 @@
 <template>
   <div class="footer text-center text-gray-600 select-none">
-    <span>© 2022 StatsSkim, 数据来源: Stats NZ</span>
+    <span>© 2022 StatsSkim, 数据来源: Stats NZ, World Bank</span>
   </div>
 </template>
 
